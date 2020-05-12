@@ -1,0 +1,49 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  overflow: hidden;
+}
+
+.screen {
+  width: 100vw;
+  height: 100vh;
+}
+
+.wrapper {
+  top: 0;
+  position: absolute;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.first {
+  background-image: url(/img/firstbg.jpg);
+  background-size: 100% 100%;
+}
+
+.second {
+  background-image: url(/img/secondbg.jpg);
+  background-size: 100% 100%;
+}
+
+.third {
+  margin-top: 0px;
+  background-image: url(/img/third-centerbg.jpg);
+  background-size: contain;
+}
+
+.third-left {
+  margin-top: 0px;
+  background-image: url(/img/third-leftbg.jpg);
+  background-size: contain;
+}
+
+.third-right {
+  margin-top: 0px;
+  background-image: url(/img/third-rightbg.jpg);
+  background-size: contain;
+}
+/*# sourceMappingURL=style.css.map */
